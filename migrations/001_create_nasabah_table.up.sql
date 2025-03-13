@@ -1,0 +1,7 @@
+CREATE TABLE nasabahs (
+    no_rekening VARCHAR(255) PRIMARY KEY,
+    nama VARCHAR(255) NOT NULL,
+    nik VARCHAR(255) UNIQUE NOT NULL,
+    no_hp VARCHAR(255) UNIQUE NOT NULL
+    saldo FLOAT
+);
